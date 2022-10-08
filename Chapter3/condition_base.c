@@ -54,3 +54,21 @@
 //     }
 //     return 0;
 // }
+
+
+#include<stdio.h>
+int main()
+{
+    int num = 4, remainder;
+    remainder = num % 2;
+    if (remainder == 0) {
+        printf("The number is even\n");
+    }
+    else {
+        printf("The number is odd\n");
+    }
+
+    return 0;
+}
+
+
