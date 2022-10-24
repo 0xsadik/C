@@ -81,5 +81,31 @@
 // }
 
 
+// 5 er namta 
+
+// #include<stdio.h>
+// int main()
+// {
+//     int i = 1;
+//     int n = 5;
+//     while ( i <= 10) {
+//         printf("%d x %d = %d\n", n, i, n * i);
+//         i++;
+//     }
+//     return 0;
+// }
 
 
+
+#include<stdio.h>
+int main()
+{
+    int i = 1;
+    int m = 0;
+    int n = 5;
+    while ( i <= 10) {
+        printf("%d x %d = %d\n", n, i, m = m + n);
+        i = i + 1;
+    }
+    return 0;
+}
