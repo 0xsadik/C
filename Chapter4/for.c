@@ -61,3 +61,65 @@
 //     return 0;
 // }
 
+// #include<stdio.h>
+// int main()
+
+// {
+//     int n, m, i, j;
+//     scanf("%d", &n);
+
+//     for (i = 0; i <= n; i++) {
+//         scanf("%d", &m);
+
+//         for (j = 10; j <= m; j++) {
+//             if ( j % 11 == 0) {
+//                 continue;
+//             }
+//             printf("%d\n", j);
+//         }
+//     }
+//     return 0;
+// }
+
+
+
+
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a, b, c;
+
+//     for (a = 1; a <= 3; a++) {
+//         for (b = 1; b <= 3; b++) {
+//             for (c = 1; c <= 3; c++) {
+//                 printf("%d, %d, %d\n", a, b, c);
+//             }
+//             printf("\n");
+//         }
+//     }
+// }
+
+
+
+
+
+
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a, b, c, d;
+    
+//     for (a = 1; a <= 4; a++) {
+//         for (b = 1; b <= 4; b++) {
+//             for (c = 1; c <= 4; c++) {
+//                 for (d = 1; d <= 4; d++) {
+//                      printf("%d, %d, %d, %d\n", a, b, c, d);
+//                 }
+//                 printf("\n");
+//             }
+//         }
+//     }
+//     return 0;
+// }
