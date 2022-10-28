@@ -1,0 +1,12 @@
+
+#include<stdio.h>
+int main()
+{
+    int ara[10] = {5, 10, 15, 20};
+    ara[0] = 100;
+    ara[1] = 200;
+    ara[2] = 300;
+
+    printf("%d, %d, %d, %d\n", ara[0], ara[1], ara[2], ara[3]);
+    return 0;
+}
