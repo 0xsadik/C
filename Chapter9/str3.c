@@ -12,7 +12,7 @@ int main()
     
     for (i = 0; i < length; i++) {
         if (country[i] >= 97 && country[i] <= 122) {
-            country[i] = 'A' + (country[i] - 'a');
+            country[i] = 'a' + (country[i] - 'a');
         }
     }
 
